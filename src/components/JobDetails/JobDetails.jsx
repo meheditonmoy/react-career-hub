@@ -7,6 +7,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { saveJobApplication } from "../../utility/LocalStorage";
 
 
 const JobDetails = () => {
@@ -17,6 +18,7 @@ const JobDetails = () => {
     console.log(job);
 
     const handleAppliedJob = () =>{
+        saveJobApplication(idInt);
         toast('You have Applied successfully');
     }
     return (
