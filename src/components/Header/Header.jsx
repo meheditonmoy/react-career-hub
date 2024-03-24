@@ -19,7 +19,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">CareerHub</a>
+                <h2 className=" text-4xl font-extrabold">CareerHub</h2>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -27,7 +27,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Star Applying</a>
+                <a className="btn text-xl font-extrabold bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white hover:bg-pink-700">Star Applying</a>
             </div>
         </div>
     );
